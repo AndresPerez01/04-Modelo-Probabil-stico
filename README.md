@@ -1,1 +1,1 @@
-# 04-Modelo-Probabil-stico
+# 04-Modelo-Probabilistico
