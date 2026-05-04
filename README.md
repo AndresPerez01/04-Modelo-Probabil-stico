@@ -1,5 +1,7 @@
 # 04-BM25: Motor de Búsqueda con Modelo Probabilístico
 
+Autor: Pérez Pineda Andrés Alejandro
+
 ## Problema del Ejercicio
 
 TF-IDF tiene una debilidad estructural: no controla cuánto "premia" la repetición de un término ni ajusta por la longitud del documento más allá de la normalización del coseno. BM25 nace del **Modelo de Independencia Binaria (BIM)** y lo extiende con dos correcciones clave:
