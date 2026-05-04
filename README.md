@@ -1,9 +1,6 @@
 # 04-BM25: Motor de Búsqueda con Modelo Probabilístico
 
-Este repositorio implementa y compara dos motores de recuperación de información sobre el corpus **Gutenberg 1000**: el modelo vectorial **TF-IDF** (visto en el ejercicio anterior) y el modelo probabilístico **BM25** (*Best Match 25*). El objetivo es demostrar empíricamente por qué BM25 produce rankings más equilibrados en colecciones de documentos con longitudes muy variables.
-
-
-## El Problema que BM25 Viene a Resolver
+## Problema del Ejercicio
 
 TF-IDF tiene una debilidad estructural: no controla cuánto "premia" la repetición de un término ni ajusta por la longitud del documento más allá de la normalización del coseno. BM25 nace del **Modelo de Independencia Binaria (BIM)** y lo extiende con dos correcciones clave:
 
